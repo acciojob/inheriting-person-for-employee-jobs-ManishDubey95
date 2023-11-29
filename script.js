@@ -20,7 +20,3 @@ Employee.prototype.jobGreet = function(){
 
 Employee.prototype.__proto__ = Person.prototype;
 
-
-// Do not change code below this line
-window.Person = Person;
-window.Employee = Employee;
