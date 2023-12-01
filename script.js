@@ -23,10 +23,7 @@ Employee.prototype.jobGreet = function() {
 // Set the constructor of Employee back to Employee
 Employee.prototype.constructor = Employee;
 
-// Example usage:
-const person = new Person("John", 30);
-person.greet();
 
-const employee = new Employee("Jane", 25, "Software Developer");
-employee.greet();
-employee.jobGreet();
+// Do not change the code below this line
+window.Person = Person;
+window.Employee = Employee;
